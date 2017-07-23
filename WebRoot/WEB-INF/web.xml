@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SignServlet</servlet-name>
+    <servlet-class>com.baiyaotech.servlet.SignServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PublishServlet</servlet-name>
+    <servlet-class>com.baiyaotech.servlet.PublishServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PerInfoServlet</servlet-name>
+    <servlet-class>com.baiyaotech.servlet.PerInfoServlet</servlet-class>
+  </servlet>
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetJob</servlet-name>
+    <servlet-class>com.baiyaotech.servlet.GetJob</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetRecord</servlet-name>
+    <servlet-class>com.baiyaotech.servlet.GetRecord</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddJob</servlet-name>
+    <servlet-class>com.baiyaotech.servlet.AddJob</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetJobById</servlet-name>
+    <servlet-class>com.baiyaotech.servlet.GetJobById</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckPicture</servlet-name>
+    <servlet-class>com.baiyaotech.servlet.CheckPicture</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchJob</servlet-name>
+    <servlet-class>com.baiyaotech.servlet.SearchJob</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteJob</servlet-name>
+    <servlet-class>com.baiyaotech.servlet.DeleteJob</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageJob</servlet-name>
+    <servlet-class>com.baiyaotech.servlet.ManageJob</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckJob</servlet-name>
+    <servlet-class>com.baiyaotech.servlet.CheckJob</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HasJoined</servlet-name>
+    <servlet-class>com.baiyaotech.servlet.HasJoined</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CancelJob</servlet-name>
+    <servlet-class>com.baiyaotech.servlet.CancelJob</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageEmployee</servlet-name>
+    <servlet-class>com.baiyaotech.servlet.ManageEmployee</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetEmployee</servlet-name>
+    <servlet-class>com.baiyaotech.servlet.GetEmployee</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  
+  
+   <servlet-mapping>
+    <servlet-name>GetRecord</servlet-name>
+    <url-pattern>/servlet/GetRecord</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SignServlet</servlet-name>
+    <url-pattern>/servlet/SignServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PublishServlet</servlet-name>
+    <url-pattern>/servlet/PublishServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PerInfoServlet</servlet-name>
+    <url-pattern>/servlet/PerInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetJob</servlet-name>
+    <url-pattern>/servlet/GetJob</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>AddJob</servlet-name>
+    <url-pattern>/servlet/AddJob</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetJobById</servlet-name>
+    <url-pattern>/servlet/GetJobById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckPicture</servlet-name>
+    <url-pattern>/servlet/CheckPicture</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchJob</servlet-name>
+    <url-pattern>/servlet/SearchJob</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteJob</servlet-name>
+    <url-pattern>/servlet/DeleteJob</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManageJob</servlet-name>
+    <url-pattern>/servlet/ManageJob</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckJob</servlet-name>
+    <url-pattern>/servlet/CheckJob</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HasJoined</servlet-name>
+    <url-pattern>/servlet/HasJoined</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CancelJob</servlet-name>
+    <url-pattern>/servlet/CancelJob</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManageEmployee</servlet-name>
+    <url-pattern>/servlet/ManageEmployee</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetEmployee</servlet-name>
+    <url-pattern>/servlet/GetEmployee</url-pattern>
+  </servlet-mapping>
+  
+  <filter>
+  	<filter-name>MyFilter</filter-name>
+  	<filter-class>com.baiyaotech.filter.MyFilter</filter-class>
+  </filter>
+ 
+  <filter-mapping>
+  	<filter-name>MyFilter</filter-name>
+  	<url-pattern> /employeeInfo.jsp</url-pattern>   
+  </filter-mapping>
+  <filter-mapping>
+  	<filter-name>MyFilter</filter-name>
+  	<url-pattern> /employerInfo.jsp</url-pattern>   
+  	</filter-mapping>
+  <filter-mapping>
+  	<filter-name>MyFilter</filter-name>
+  	<url-pattern> /index.jsp</url-pattern>   
+  </filter-mapping>
+  <filter-mapping>
+  	<filter-name>MyFilter</filter-name>
+  	<url-pattern> /publish.jsp</url-pattern>   
+  </filter-mapping>
+  <filter-mapping>
+  	<filter-name>MyFilter</filter-name>
+  	<url-pattern> /map.jsp</url-pattern>   
+  </filter-mapping>
+  <filter-mapping>
+  	<filter-name>MyFilter</filter-name>
+  	<url-pattern> /position.jsp</url-pattern>   
+  </filter-mapping>
+</web-app>
